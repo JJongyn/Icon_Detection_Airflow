@@ -1,0 +1,18 @@
+names:
+- Phone
+- Calendar
+- Contacts
+- Icon
+- News
+- Bluetooth Audio
+- Local Media Player
+- AAE Theme Playgr
+- Google Assistant
+- Paint Booth (Gerrit)
+- Settings
+- SMS
+- AAE Theme Playgr;
+nc: 13
+test: ../test/images
+train: ../train/images
+val: ../valid/images

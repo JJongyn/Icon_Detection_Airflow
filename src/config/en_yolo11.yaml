@@ -1,0 +1,34 @@
+## For Icon Detector
+icon_model_path: yolov8/last.pt 
+ocr_language: en
+ocr_type: "easy_ocr"
+gpu: False
+draw_result: True
+draw_path: results/draw_result/result.png
+bbox_path: results/bbox
+conf: 0.6
+iou: 0.1
+split_ratio: 0.8
+
+## For Navigation Detector
+train_flag: False
+navi_model_path: pretrained/last.py 
+yolo_data_path: data/data.yaml
+train_dir: data/train
+valid_dir: data/valid
+# results_dir: results/
+imgsz: 64
+epochs: 5
+batch_size: 1
+
+
+## For Augmentation
+class_id: config/class_id.json
+aug_flag: False
+
+
+## For Ai Agent
+prompt: "YOLO 모델 학습 결과를 분석해 주세요. 주요 성능 지표(mAP, Precision, Recall)를 요약해 주세요. 분석은 간결하고 직관적으로 작성해 주세요."
+api_key: ''
+model_name: gpt-3.5-turbo
+temperature: 0.7

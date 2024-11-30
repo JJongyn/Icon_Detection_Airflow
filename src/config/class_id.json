@@ -1,0 +1,15 @@
+{
+    "Phone": 0,
+    "Calendar": 1,
+    "Contacts": 2,
+    "Icon": 3,
+    "News": 4,
+    "Bluetooth Audio": 5,
+    "Local Media Player": 6,
+    "AAE Theme Playgr": 7,
+    "Google Assistant": 8,
+    "Paint Booth (Gerrit)": 9,
+    "Settings": 10,
+    "SMS": 11,
+    "AAE Theme Playgr;": 12
+}
