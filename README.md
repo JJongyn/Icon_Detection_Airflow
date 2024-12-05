@@ -17,6 +17,8 @@ To run airflow scheduler, run this command:
 airflow scheduler
 ```
 
+## Airflow process
+You can check our airflow tasks in **`dags/dag.py`**.
 
 ## **Project Structure**
 **`dags`**: Contains Airflow DAGs to automate the pipeline for data collection, preprocessing, and retraining.
