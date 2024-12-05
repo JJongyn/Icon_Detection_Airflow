@@ -18,10 +18,10 @@ airflow scheduler
 ```
 
 ## 💻 Airflow process 
-You can check our airflow tasks in **`dags/dag.py`**.
+You can check our airflow tasks in [**`dags/dag.py`**](https://github.com/JJongyn/Icon_Detection_Airflow/blob/86bcebe47a4d865cad199a6ea611686032c8d196/dags/dag.py#L26)
 
 ## 💬 Teams notification using airflow
-You can check teams message using airflow in **`include/notification.py`**
+You can check teams message using airflow in [**`include/notification.py`**](https://github.com/JJongyn/Icon_Detection_Airflow/blob/86bcebe47a4d865cad199a6ea611686032c8d196/include/notifications.py#L6)
 
 ## 📝 **Project Structure**
 **`dags`**: Contains Airflow DAGs to automate the pipeline for data collection, preprocessing, and retraining.
