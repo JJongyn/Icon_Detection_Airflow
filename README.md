@@ -1,10 +1,10 @@
 # Automotive Icon Detection + Airflow
 This project focuses on detecting navigation icons in automotive user interfaces using YOLO models, OCR, and Apache Airflow for process automation. The system streamlines data collection, labeling, and retraining, making it adaptable to new versions or updates in automotive applications.
 
-## Architecture
+## 📌 Architecture
 <img width="1260" alt="process" src="https://github.com/user-attachments/assets/a986a2d4-0828-47c3-81f5-36762516d78b">
 
-## **Run**
+## 📌 **Run**
 
 To run airflow server, run this command:
 
@@ -17,10 +17,13 @@ To run airflow scheduler, run this command:
 airflow scheduler
 ```
 
-## Airflow process
+## 💻 Airflow process 
 You can check our airflow tasks in **`dags/dag.py`**.
 
-## **Project Structure**
+## 💬 Teams notification using airflow
+You can check teams message using airflow in **`include/notification.py`**
+
+## 📝 **Project Structure**
 **`dags`**: Contains Airflow DAGs to automate the pipeline for data collection, preprocessing, and retraining.
 
 **`include`**: Manages task alerts sent via Teams.
